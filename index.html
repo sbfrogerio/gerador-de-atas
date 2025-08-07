@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Atas - Reuniões e Atendimentos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F8FAFC; color: #334155; }
+        .font-serif { font-family: 'Merriweather', serif; }
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- HEADER -->
+    <header class="fixed inset-x-0 top-0 z-50 bg-white/90 backdrop-blur-lg border-b border-slate-200">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+            <a href="#top" class="flex items-center gap-3 font-bold text-slate-800">
+                <div class="w-10 h-10 bg-slate-800 rounded-md flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <span class="hidden sm:inline-block text-lg">Gerador de Atas</span>
+            </a>
+            <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
+                <a href="#sobre" class="hover:text-slate-900 transition">Sobre</a>
+                <a href="#beneficios" class="hover:text-slate-900 transition">Benefícios</a>
+                <a href="#como-funciona" class="hover:text-slate-900 transition">Como Funciona</a>
+            </nav>
+            <a href="https://chatgpt.com/g/g-6877819ca3108191a43d04610a5efcea-gerador-de-atas-reunioes-e-atendimentos" target="_blank" class="bg-slate-800 text-white font-bold text-sm py-2 px-5 rounded-lg shadow-md hover:bg-slate-900 transition">
+                Experimente Agora
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="top" class="relative pt-40 pb-24 px-6 text-center bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
+                    Transforme suas reuniões e atendimentos jurídicos em atas profissionais, em minutos.
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-600">
+                    Uma ferramenta gratuita de inteligência artificial, pensada para advogados e equipes jurídicas que valorizam organização, clareza e eficiência.
+                </p>
+                <div class="mt-10">
+                    <a href="https://chatgpt.com/g/g-6877819ca3108191a43d04610a5efcea-gerador-de-atas-reunioes-e-atendimentos" target="_blank" class="bg-slate-800 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-slate-900 transition-transform transform hover:scale-105 inline-block">
+                        Experimente Agora Gratuitamente
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SOBRE SECTION -->
+        <section id="sobre" class="py-24 px-6 bg-slate-50 fade-in-section">
+            <div class="max-w-5xl mx-auto text-center">
+                <h2 class="font-serif text-3xl font-bold text-slate-900">O que é o Gerador de Atas?</h2>
+                <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
+                    Uma IA jurídica treinada para gerar atas completas e técnicas, ideal para registros de reuniões estratégicas e atendimentos com clientes. Baseado em um fluxo validado em dois passos, sem exigir cadastro ou pagamento.
+                </p>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                    <div class="bg-white p-8 rounded-xl border border-slate-200">
+                        <span class="font-bold text-sm text-blue-600 bg-blue-100 py-1 px-3 rounded-full">Passo 1</span>
+                        <h3 class="text-xl font-bold text-slate-800 mt-4">Diagnóstico + Questionário Inteligente</h3>
+                        <p class="mt-2 text-slate-600">A IA analisa sua transcrição e faz as perguntas certas para não deixar nenhuma informação crucial de fora.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl border border-slate-200">
+                        <span class="font-bold text-sm text-green-600 bg-green-100 py-1 px-3 rounded-full">Passo 2</span>
+                        <h3 class="text-xl font-bold text-slate-800 mt-4">Geração da Ata Técnica</h3>
+                        <p class="mt-2 text-slate-600">Com as informações validadas, a ferramenta redige uma ata completa, com estrutura profissional e clareza jurídica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFÍCIOS SECTION -->
+        <section id="beneficios" class="py-24 px-6 bg-white fade-in-section">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-14">
+                    <h2 class="font-serif text-3xl font-bold text-slate-900">Por que usar essa ferramenta?</h2>
+                    <p class="mt-4 text-lg text-slate-600">Eleve o padrão dos seus registros e ganhe eficiência.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Benefício Card -->
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">Economia de Tempo</h3>
+                            <p class="text-slate-600">Elimine horas de redação técnica e foque na estratégia do seu caso.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">Zero Omissões</h3>
+                            <p class="text-slate-600">O questionário inteligente garante que nenhuma informação vital seja esquecida.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">Padronização Profissional</h3>
+                            <p class="text-slate-600">Mantenha um padrão de excelência em todos os documentos do seu escritório.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">Gestão Confiável</h3>
+                            <p class="text-slate-600">Aumente a confiabilidade dos seus registros para delegação de tarefas e cumprimento de prazos.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">Aumento da Produtividade</h3>
+                            <p class="text-slate-600">Libere sua equipe para focar em atividades de maior valor agregado.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">✔️</div>
+                        <div>
+                            <h3 class="font-bold text-slate-800">100% Gratuito e Sem Login</h3>
+                            <p class="text-slate-600">Use a ferramenta sem barreiras, cadastros ou custos. Simples e direto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMO FUNCIONA SECTION -->
+        <section id="como-funciona" class="py-24 px-6 bg-slate-50 fade-in-section">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-14">
+                    <h2 class="font-serif text-3xl font-bold text-slate-900">Como Usar em 3 Passos Simples</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Passo 1 -->
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-slate-800 text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">1</div>
+                        <h3 class="font-bold text-lg text-slate-800">Cole sua Transcrição</h3>
+                        <p class="text-slate-600 mt-2">Envie o texto bruto do seu atendimento ou reunião para a IA.</p>
+                    </div>
+                    <!-- Passo 2 -->
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-slate-800 text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">2</div>
+                        <h3 class="font-bold text-lg text-slate-800">Responda o Questionário</h3>
+                        <p class="text-slate-600 mt-2">Valide as informações essenciais que a IA identificou como cruciais.</p>
+                    </div>
+                    <!-- Passo 3 -->
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-slate-800 text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">3</div>
+                        <h3 class="font-bold text-lg text-slate-800">Receba sua Ata Pronta</h3>
+                        <p class="text-slate-600 mt-2">Obtenha um documento estruturado, claro e tecnicamente preciso.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS SECTION -->
+        <section id="depoimentos" class="py-24 px-6 bg-white fade-in-section">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-14">
+                    <h2 class="font-serif text-3xl font-bold text-slate-900">O que os Usuários Dizem</h2>
+                </div>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                    <blockquote class="bg-slate-50 p-8 rounded-xl border border-slate-200">
+                        <p class="text-slate-700">"Agora consigo organizar todas as reuniões com clareza técnica, sem perder tempo. A ferramenta é um divisor de águas na minha rotina."</p>
+                        <footer class="mt-4 font-bold text-sm text-slate-800">— Advogada, São Paulo/SP</footer>
+                    </blockquote>
+                    <blockquote class="bg-slate-50 p-8 rounded-xl border border-slate-200">
+                        <p class="text-slate-700">"Uso no meu escritório para padronizar os atendimentos. Ganhamos horas por semana e a qualidade dos nossos registros nunca foi tão alta."</p>
+                        <footer class="mt-4 font-bold text-sm text-slate-800">— Sócio de Escritório, Rio de Janeiro/RJ</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA SECTION -->
+        <section id="comece-agora" class="py-24 px-6 bg-slate-800 text-white text-center fade-in-section">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold mb-6">Pronto para transformar sua rotina jurídica?</h2>
+                <p class="max-w-2xl mx-auto mb-10 text-lg text-slate-300">
+                    Use gratuitamente agora mesmo e descubra como a inteligência artificial pode ser sua maior aliada na busca por eficiência e precisão.
+                </p>
+                <a href="https://chatgpt.com/g/g-6877819ca3108191a43d04610a5efcea-gerador-de-atas-reunioes-e-atendimentos" target="_blank" class="bg-white text-slate-800 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-slate-200 transition-transform transform hover:scale-105 inline-block">
+                    Acessar o Gerador de Atas
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contato" class="bg-slate-900 text-slate-400 py-12 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="font-bold text-white">Criado por Rogério Bezerra (OAB/AL 19.249)</p>
+            <p class="mt-2 text-sm">Uma ferramenta pensada por um advogado, para advogados.</p>
+            <div class="mt-4 flex justify-center gap-4">
+                 <a href="https://wa.me/5582987673811" target="_blank" class="text-sm hover:text-white transition">WhatsApp</a>
+                 <span class="text-slate-600">|</span>
+                 <a href="https://www.instagram.com/rogeriosbf/" target="_blank" class="text-sm hover:text-white transition">Instagram</a>
+                 <span class="text-slate-600">|</span>
+                 <a href="mailto:rogeriobezerra19249@gmail.com" class="text-sm hover:text-white transition">E-mail</a>
+            </div>
+            <p class="mt-8 text-xs text-slate-500">© 2024 Gerador de Atas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 p-3 bg-slate-800 text-white rounded-full shadow-lg hover:bg-slate-900 transition opacity-0 pointer-events-none">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
+    </button>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Back to Top Button ---
+    const backToTopButton = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 400) {
+            backToTopButton.classList.remove('opacity-0', 'pointer-events-none');
+        } else {
+            backToTopButton.classList.add('opacity-0', 'pointer-events-none');
+        }
+    });
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // --- Fade-in on Scroll ---
+    const sections = document.querySelectorAll('.fade-in-section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+</script>
+
+</body>
+</html>
